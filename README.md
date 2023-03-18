@@ -11,16 +11,26 @@ index.js: This is a JavaScript file that provides functionality to the user inte
 
 manifest.json:This is a JSON file that provides configuration information for the "SaveLink" Google Chrome extension. It includes fields such as manifest_version, version, name, action, and permissions. The file specifies the version of the manifest file, the version of the extension, the name of the extension, the default popup and icon, and the permissions required for the extension to function correctly.
 
+icon.png: it contains the image for icon.
+
 Usage
 
 To use the extension, first download or clone the repository. Then, follow these steps:
 
 1.Open Google Chrome.
+
 2.Click on the three dots in the upper-right corner of the screen to open the Chrome menu.
+
 3.Select "More tools" and then "Extensions" from the menu.
+
 4.Turn on "Developer mode" in the upper-right corner of the "Extensions" page.
+
 5.Click "Load unpacked" and select the directory where you downloaded or cloned the repository.
+
 6.Click on the "SaveLink" extension icon in the Chrome toolbar to open the extension's user interface.
+
 7.Use the input field to add links and the "SAVE INPUT" button to save them.
+
 8.Use the "SAVE TAB" button to save the current tab's link.
+
 9.Use the "DELETE ALL" button to delete all saved links.
